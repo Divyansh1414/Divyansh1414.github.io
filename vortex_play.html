@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>VortexPlay - Portfolio Details</title>
+  <meta content="VortexPlay Video-On-Demand Streaming Platform project portfolio page" name="description">
+  <meta content="VortexPlay, Video Streaming, Golang, React, AWS, Scalable Systems" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body class="portfolio-details-page">
+
+  <header id="header" class="header dark-background d-flex flex-column">
+    <i class="header-toggle d-xl-none bi bi-list"></i>
+
+    <div class="profile-img">
+      <img src="assets/img/my-profile-img.jpg" alt="" class="img-fluid rounded-circle">
+    </div>
+
+    <a href="index.html" class="logo d-flex align-items-center justify-content-center">
+      <h1 class="sitename">Divyansh Pradhan</h1>
+    </a>
+
+    <div class="social-links text-center">
+      <a href="https://x.com/DivyanshPr61199" class="twitter"><i class="bi bi-twitter-x"></i></a>
+      <a href="https://github.com/Divyansh1414" class="github"><i class="bi bi-github"></i></a>
+      <a href="https://www.facebook.com/profile.php?id=100007613567546" class="facebook"><i class="bi bi-facebook"></i></a>
+      <a href="https://www.instagram.com/divyansh_1414/" class="instagram"><i class="bi bi-instagram"></i></a>
+      <a href="https://www.linkedin.com/in/divyanshpradhan14/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+    </div>
+
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="index.html"><i class="bi bi-house navicon"></i> Home</a></li>
+        <li><a href="/index.html#about"><i class="bi bi-person navicon"></i> About</a></li>
+        <li><a href="/index.html#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
+        <li><a href="index.html#portfolio"><i class="bi bi-images navicon"></i> Projects</a></li>
+        <li><a href="/index.html#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title dark-background">
+      <div class="container d-lg-flex justify-content-between align-items-center">
+        <h1 class="mb-2 mb-lg-0">VortexPlay: Video-On-Demand Streaming Platform</h1>
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li class="current">Project Details</li>
+          </ol>
+        </nav>
+      </div>
+    </div><!-- End Page Title -->
+
+    <!-- Portfolio Details Section -->
+    <section id="portfolio-details" class="portfolio-details section">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <!-- Image Section -->
+          <div class="col-lg-8">
+            <div class="portfolio-details-slider swiper init-swiper">
+              <script type="application/json" class="swiper-config">
+                {
+                  "loop": true,
+                  "speed": 600,
+                  "autoplay": {
+                    "delay": 5000
+                  },
+                  "slidesPerView": "auto",
+                  "pagination": {
+                    "el": ".swiper-pagination",
+                    "type": "bullets",
+                    "clickable": true
+                  }
+                }
+              </script>
+              <div class="swiper-wrapper align-items-center">
+                <div class="swiper-slide" data-aos="fade-up">
+                  <img src="assets/img/portfolio/vortexplay-dashboard.jpg" alt="VortexPlay Dashboard">
+                </div>
+                <div class="swiper-slide" data-aos="fade-up">
+                  <img src="assets/img/portfolio/vortexplay-analytics.jpg" alt="VortexPlay Analytics">
+                </div>
+                <div class="swiper-slide" data-aos="fade-up">
+                  <img src="assets/img/portfolio/vortexplay-player.jpg" alt="VortexPlay Video Player">
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+
+          <!-- Info Section -->
+          <div class="col-lg-4">
+            <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
+              <h3>Project Information</h3>
+              <ul>
+                <li><strong>Category:</strong> Scalable Systems / Web Development</li>
+                <li><strong>Tools:</strong> React, TypeScript, Tailwind, Golang, Twirp, JWT, PostgreSQL, Redis, Docker, Terraform, AWS ECS, Grafana</li>
+                <li><strong>Project Date:</strong> Feb 2025 - Apr 2025</li>
+                <li><strong>GitHub:</strong> <a href="https://github.com/Divyansh1414/VortexPlay">github.com/Divyansh1414</a></li>
+              </ul>
+            </div>
+            <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
+              <h2>VortexPlay: Scalable Video-On-Demand Platform</h2>
+              <p>
+                VortexPlay is a cloud-native video-on-demand streaming platform designed for scale. I built a single-page application with React and TypeScript for content tools enabling 800+ weekly beta sessions. On the backend, I integrated Golang services with Twirp, JWT authentication, and S3 uploads, improving ingest speed by 31% and reducing 500 errors by 42%. 
+              </p>
+              <p>
+                For analytics, I deployed a Dockerized stack on AWS ECS with Terraform, using PostgreSQL, Redis, and Grafana dashboards to visualize real-time engagement, boosting mid-video completion rates by 22%. This project demonstrates my expertise in distributed systems, cloud infrastructure, and performance optimization.
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- /Portfolio Details Section -->
+
+  </main>
+
+  <footer id="footer" class="footer position-relative light-background">
+    <div class="container">
+      <div class="copyright text-center">
+        <!-- <p>© <strong>Divyansh Pradhan</strong>. All Rights Reserved.</p> -->
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
