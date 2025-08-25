@@ -1270,6 +1270,12 @@ section,
   margin-right: 8px;
   color: var(--accent-color);
 }
+/* Force all portfolio images to align */
+.portfolio-content img {
+  width: 100%;
+  height: 250px;   /* adjust until it looks right */
+  object-fit: cover; /* keeps proportions without stretching */
+}
 
 /*--------------------------------------------------------------
 # Starter Section Section
