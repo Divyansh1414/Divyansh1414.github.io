@@ -1277,6 +1277,17 @@ section,
   object-fit: cover; /* keeps proportions without stretching */
 }
 
+#hero-video {
+  position: absolute; /* Positions the video relative to its parent container */
+  top: 50%; /* Moves the top edge of the video to the vertical center of the container */
+  left: 50%; /* Moves the left edge of the video to the horizontal center of the container */
+  min-width: 100%; /* Ensures the video is at least as wide as its container */
+  min-height: 100%; /* Ensures the video is at least as tall as its container */
+  transform: translate(-50%, -50%); /* Shifts the video back by half its own width and height, centering it perfectly */
+  object-fit: cover; /* **This is the key!** It makes the video fill the container, cropping any excess content */
+  z-index: -1; /* Pushes the video behind the text content */
+}
+
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
