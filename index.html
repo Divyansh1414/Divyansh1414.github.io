@@ -26,6 +26,38 @@
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
+  
+  <!-- Custom CSS for Video Background -->
+  <style>
+    #hero {
+      position: relative;
+      height: 100vh;
+      overflow: hidden;
+    }
+    
+    #hero-video {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      min-width: 100%;
+      min-height: 100%;
+      width: auto;
+      height: auto;
+      transform: translate(-50%, -50%);
+      z-index: -1;
+    }
+    
+    .hero .container {
+      position: relative;
+      z-index: 2;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+  </style>
 
   <!-- =======================================================
   * Template Name: iPortfolio
@@ -108,14 +140,13 @@
 
   <video autoplay loop muted playsinline id="hero-video">
     <source src="assets/img/video.mp4" type="video/mp4">
-    <source src="assets/img/video.webm" type="video/webm">
     Your browser does not support the video tag.
   </video>
 
-<!--   <div class="container" data-aos="fade-up" data-aos-delay="100">
-    <h2>Divyansh Pradhan</h2>
-    <p>I'm a <span class="typed" data-typed-items=" Data Analyst, Data Scientist, Machine Learning Engineer, Freelancer, Guitarist"></span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
-  </div> -->
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+    <h2 style="color: white; text-shadow: 2px 2px 4px rgba(0,0,0,0.7);">Divyansh Pradhan</h2>
+    <p style="color: white; text-shadow: 2px 2px 4px rgba(0,0,0,0.7);">I'm a <span class="typed" data-typed-items=" Data Analyst, Data Scientist, Machine Learning Engineer, Freelancer, Guitarist"></span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
+  </div>
 
 </section>
 
